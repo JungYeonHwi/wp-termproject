@@ -1,0 +1,84 @@
+body {
+    position:absolute;
+}
+
+header {
+    width:1100px;
+    background-image: url(https://picsum.photos/id/1056/1100/150);
+}
+
+header > h2 {
+    color :blue;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+header > ul {
+    background-color: rgb(116, 116, 116);
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 0;
+}
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.menubar) {
+    background-color: #111;
+}
+.menubar {
+    background-color: #4CAF50;
+}
+
+#list {
+    margin-top : 30px;
+    width:1100px;
+    border:10px;
+    text-align: center;
+    font-size:25px;
+
+}
+
+#list th {
+    background-color:gold;
+    border:10px;
+    color : white;
+    font-size:30px;
+    padding:10px;
+}
+
+#list .number {
+    width: 110px;
+    padding:5px;
+}
+
+#list .title {
+    width : 350px;
+}
+
+#list .author {
+    width : 300px;
+}
+
+#list .date {
+    width : 150px;
+}
+
+.button {
+    font-size:20px;
+    margin-top : 20px;
+    border-color:blue;
+    border-width: 3px;
+    font-weight: bolder;
+}

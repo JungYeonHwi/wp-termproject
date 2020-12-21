@@ -1,0 +1,85 @@
+body {
+  position:absolute;
+}
+
+header {
+  width:1100px;
+  background-image: url(https://picsum.photos/id/1056/1100/150);
+}
+
+header > h2 {
+  color :blue;
+  margin-left:20px;
+  margin-top:10px;
+}
+
+header > ul {
+  background-color: rgb(116, 116, 116);
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+}
+ul:after{
+  content:'';
+  display: block;
+  clear:both;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.menubar) {
+  background-color: #111;
+}
+.menubar {
+  background-color: #4CAF50;
+}
+
+h2 
+{
+    margin-left:10px;
+}
+
+#button .topic
+{
+    size : 50px;
+}
+
+table.button {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid #369;
+    margin : 20px 10px;
+  }
+  table.button th{
+    width: 147px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #335888;
+  
+  }
+  table.type03 td {
+    width: 349px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+.Btn { 
+    margin-left: 200px;
+ }
+.Btn button { 
+    height: 35px; 
+    padding: 0 10px;
+    border: none;
+}
