@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+    {% extends 'layout.html' %}
+
+    {% block content %}
+    <h1>Index Page</h1>
+    <div>Cookie: {{cookie}}</div>
+    {% endblock %}
+
+</head>
+
+<body>
+    <header>
+        <h2 class="title">
+            <a href="/">Simple Board</a>
+        </h2>
+        <ul>
+            <li class="item"><a href="/login">Login</a></li>
+            <li class="item"><a href="/join">Sign-up</a></li>
+        </ul>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2020.kmahn.All rights reserved.</p>
+    </footer>
+
+    {% block scripts %}
+    {% endblock %}
+</body>
+
+</html>
